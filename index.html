@@ -1,6 +1,17 @@
+<!--
+Rock paper scissors with UI.
+
+Starting page .
+Header with title Rock Paper Scissors.
+a big button that says play.
+
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="javascript.js" defer></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,7 +19,62 @@
         <link rel="stylesheet" href="style.css">
         </head>
     <body>
-        
-        <script src="javascript.js"></script>
+        <div class="container", id="main-container">
+            <div class="container", id="play-container">
+                <div class="container", id="title-button-container">
+                    <h1 id="title-text">
+                        Rock, paper scissors.
+                    </h1>
+                    
+                    <div class="container", id="play-button-container">
+                        <p id="p-rounds">Number of rounds:</p>
+                        <input type="text" id="rounds-input">
+                        <button id="button-play">
+                            Play
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container", id="main-game-container">
+                <div class="container", id="title-container">
+                    <h1 id="title">Rock, Paper Scissors</h1>
+                </div>
+                <div class="container", id="ai-container">
+                    <div id="ai-choice">
+                        <p id="ai-score-p">AI Score: 0</p>
+                        <button id="ai-choice-img"><img id="img-loading", src="images/icons8-loading-circle.gif" alt=""><span class="button-text" id="ai-button-text"></span></button>
+                    </div>
+                </div>
+                <div class="container", id="game-container">
+                    <button id="start-button">Start</button>
+
+                </div>
+                <div class="container", id="human-container">
+                    <div class="container", id="button-container">
+                        <button class="game-button", id="rock-button"><img src="images/icons8-rock-50.png" alt="rock"><span class="button-text">Rock</span></button>
+                        <button class="game-button", id="paper-button"><img src="images/icons8-papers-64.png" alt="paper"><span class="button-text">Paper</span></button>
+                        <button class="game-button", id="scissor-button"><img src="images/icons8-scissor-96.png" alt="scissors"><span class="button-text">Scissors</span></button>
+                        <button id="reset-button"><img id="reset-img", src="images/icons8-reset-50.png"><span class="button-text">Reset</span></button>
+
+                    </div>
+
+                </div>
+                <div class="container", id="score-container">
+                    <p id="human-score-p">Your score: 0</p>
+                    <div class="container", id="rounds-container">
+                        <p class="roundsP" id="p-numb-rounds"></p>
+                        <p class="roundsP" id="rounds-played"></p>
+                    </div>
+                    </div>
+            </div>
+
+        </div>
+        <div class="container", id="footer-container">
+            <footer id="footer">
+                Eddie Håkansson 2022
+            </footer>
+        </div>
+
+
     </body>
 </html>

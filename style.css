@@ -1,3 +1,208 @@
-body {
-    background-color: rgb(56, 54, 54);
+html {
+    height: 100%
 }
+
+body {
+    height: 100%;
+    background-color: rgb(37, 33, 33);
+}
+
+img {
+    height: 70px;
+    padding: 10px;
+}
+
+
+#footer-container {
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#footer {
+    font-size: 20px;
+    color: rgb(7, 119, 218);
+}
+
+#img-loading {
+    height: 60px;
+}
+
+.container {
+    display: flex;
+}
+
+
+#main-container {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#title-button-container {
+    flex-direction: column;
+    padding-bottom: 80px;
+    align-items: center;
+}
+
+#play-button-container {
+    justify-content: center;
+    align-items: center;
+}
+
+#game-container {
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+
+#title-text {
+    font-size: 60px;
+    color:aliceblue;
+}
+
+#button-play {
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(172, 255, 255);
+}
+
+#p-rounds {
+    font-size: 20px;
+    color:antiquewhite;
+}
+
+
+#rounds-input {
+    font-size: 18px;
+    width: 45px;
+    margin: 0 20px;
+}
+
+#error-rounds {
+    padding: 20px;
+    color:rgb(250, 134, 134);
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+/*
+
+MAIN GAME CSS.
+
+
+*/
+
+#title-container {
+    justify-content: center;
+}
+
+#title {
+    color: antiquewhite;
+
+}
+
+#main-game-container {
+    height: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+#start-button {
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgba(184, 88, 10, 0.671);
+
+}
+
+#ai-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#ai-score-p {
+    display: none;
+    color:antiquewhite;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 7px;
+}
+
+#ai-choice-img {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+#ai-button-text {
+    font-size: 10px;
+}
+
+
+#human-container {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#button-container {
+    width: 600px;
+    justify-content: space-around;
+}
+.game-button {
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+.button-text {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+#reset-button {
+    display: flex;
+    flex-direction: column;
+    height: 85px;
+
+}
+
+#score-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#human-score-p {
+    display: none;
+    color:antiquewhite;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.roundsP {
+    color:whitesmoke;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+
+#reset-img {
+    height: 40px;
+    padding: 10px;
+}
+

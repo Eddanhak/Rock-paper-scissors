@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    background-color: rgb(37, 33, 33);
+    background-image: url(images/planet-craters.jpg);
 }
 
 img {
@@ -20,11 +20,11 @@ img {
 
 #footer {
     font-size: 20px;
-    color: rgb(7, 119, 218);
+    color: rgb(202, 8, 8);
 }
 
 #img-loading {
-    height: 60px;
+    height: 65px;
 }
 
 .container {
@@ -84,7 +84,7 @@ img {
 
 #error-rounds {
     padding: 20px;
-    color:rgb(250, 134, 134);
+    color:rgb(136, 27, 27);
     font-size: 18px;
     font-weight: 100;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -117,7 +117,7 @@ MAIN GAME CSS.
     padding: 20px;
     font-size: 30px;
     border-radius: 10px;
-    background-color: rgba(184, 88, 10, 0.671);
+    background-color: rgba(78, 119, 255, 0.671);
 
 }
 
@@ -148,6 +148,19 @@ MAIN GAME CSS.
     font-size: 10px;
 }
 
+
+#game-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#who-won-p {
+    display: none;
+    margin-top: 20px;
+    color: antiquewhite;
+    font-size: 22px;
+}
 
 #human-container {
     height: 100%;
